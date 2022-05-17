@@ -10,7 +10,7 @@ function Login() {
 
           <label for='password'>Password</label><br/>
           <input typeof='password' id='password' /><br/>
-          <button><Link to='/'>Login</Link></button>
+          <button><Link to='/Home'>Login</Link></button>
         </form>
     </div>
   )

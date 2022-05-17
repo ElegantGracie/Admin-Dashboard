@@ -1,21 +1,35 @@
 import React from 'react'
+import './Home.css'
 import Dashboard from '../../Dashboard/Dashboard';
+import Client from '../../Component/Client/Client';
+import Team from '../../Component/Team/Team';
+import Product from '../../Component/Product/Product';
+import HomePage from '../../Component/HomePage/HomePage';
 import {Routes, Route} from "react-router-dom";
 
 
 function Home() {
   return (
     
-    <div>
+    <div className='home'>
+      <div className='dashboard'>
       <Dashboard/>
-        Home page.
+      </div>
+
+      <div className='homepage'>
+      <HomePage/> 
+      </div>
+      
+       
 
 
 
 
         
         <Routes>
-          <Route />
+          <Route path='/Home/Team' element={<Team/>}/>
+          <Route path='/Home/Client' element={<Client/>}/>
+          <Route path='/Home/Product' element={<Product/>}/>        
         </Routes>
 
         

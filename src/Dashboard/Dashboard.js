@@ -1,14 +1,15 @@
 import React from 'react'
+import './Dashboard.css'
 import {Link} from "react-router-dom"
 
 function Dashboard() {
   return (
     <div className='dashboard'>
-       <div>
-         <p><Link to='/client'>Client</Link></p>
-         <p><Link to='/team'>Team</Link></p>
-         <p><Link to='/product'>Product</Link></p>
-         <p><Link to='/Login'>Logout</Link></p>
+       <div className='dashArrange'>
+         <div><Link to='/Home/Client'>Client</Link></div>
+         <div><Link to='/Home/Team'>Team</Link></div>
+         <div><Link to='/Home/Product'>Product</Link></div>
+         <div><Link to='/'>Logout</Link></div>
        </div>
     </div>
   )

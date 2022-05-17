@@ -1,0 +1,7 @@
+div.dashboard{
+    display: flex;
+}
+div.dashArrange{
+    display: flex;
+    flex-direction: column;
+}
