@@ -6,10 +6,11 @@ function Dashboard() {
   return (
     <div className='dashboard'>
        <div className='dashArrange'>
-         <div><Link to='/Home/Client'>Client</Link></div>
-         <div><Link to='/Home/Team'>Team</Link></div>
-         <div><Link to='/Home/Product'>Product</Link></div>
-         <div><Link to='/'>Logout</Link></div>
+         <div className='link'><h4 style={{color: 'grey'}}>Dashboard</h4></div>
+         <div className='link'><Link to='/Home/Client' className='text-link'>Client</Link></div>
+         <div className='link'><Link to='/Home/Team' className='text-link'>Team</Link></div>
+         <div className='link'><Link to='/Home/Product' className='text-link'>Product</Link></div>
+         <div className='logout'><Link to='/' className='text-link'>Logout</Link></div>
        </div>
     </div>
   )

@@ -1,0 +1,39 @@
+div.form{
+    display: block;
+    text-align: center; 
+    padding: 20px; 
+}
+form{
+    display: inline-block;
+    margin-right: auto;
+    margin-right: auto;
+    text-align: left;
+   
+}
+input{
+    padding: 8px;
+    width: 20rem;
+    box-shadow: 0 0 5pt 2pt #D3D3D3;
+    border-radius: 5px;
+}
+input:hover{
+    box-shadow: 0 0 2pt 2pt orange ;
+    
+    
+}
+
+button{
+    margin-left: 17.8em;
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 100px;
+    color: #fff;
+    background-color: #D3D3D3;
+}
+button:hover{
+    box-shadow: 0 0 2pt 2pt orange ;
+}
+
+
