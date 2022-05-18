@@ -6,12 +6,13 @@ function Login() {
   return (
     <div className='form'>
         <form>
+          <h1 style={{textAlign:'center'}}>WELCOME!</h1>
           <label for='email'>Email</label><br/>
-          <input typeof='text' id='username' /><br/><br/>
+          <input type='text' id='username' /><br/><br/>
 
           <label for='password'>Password</label><br/>
           <input type='password' id='password' /><br/>
-          <button><Link to='/Home' className='text-link'>Login</Link></button>
+          <Link to='/Home'><button>Login</button></Link>
         </form>
     </div>
   )
