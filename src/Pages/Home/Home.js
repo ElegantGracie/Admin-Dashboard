@@ -6,6 +6,7 @@ import Team from '../../Component/Team/Team';
 import Product from '../../Component/Product/Product';
 import HomePage from '../../Component/HomePage/HomePage';
 import {Routes, Route} from "react-router-dom";
+// import Chart from '../../Component/Charts/Chart';
 
 
 function Home() {
@@ -19,6 +20,9 @@ function Home() {
       <div className='homepage'>
       <HomePage/> 
       </div>
+      {/* <div>
+        <Chart />
+      </div> */}
       
        
 
