@@ -5,35 +5,66 @@ div.form{
 }
 form{
     display: inline-block;
-    margin-right: auto;
-    margin-right: auto;
+    margin: 10em 30em 0 25em;
     text-align: left;
    
 }
 input{
-    padding: 8px;
-    width: 20rem;
+    padding: 10px;
+    width: 30rem;
     box-shadow: 0 0 5pt 2pt #D3D3D3;
     border-radius: 5px;
 }
 input:hover{
-    box-shadow: 0 0 2pt 2pt orange ;
-    
-    
+    box-shadow: 0 0 2pt 2pt orange ;  
 }
-
 button{
-    margin-left: 17.8em;
     margin-top: 10px;
-    padding: 5px;
+    padding: 15px;
     border: 1px solid;
     border-radius: 5px;
-    width: 100px;
+    width: 31.5rem;
     color: #fff;
+    font-size: medium;
     background-color: #D3D3D3;
 }
 button:hover{
     box-shadow: 0 0 2pt 2pt orange ;
 }
+@media screen and (max-width: 767px){
+    div.form{
+        display: block;
+        text-align: center; 
+        padding: 20px; 
+        font-size: 10px;
+    }
+    form{
+        display: inline-block;
+        margin: 5em 0 0 5em;
+        text-align: left;
+}
+    input{
+        padding: 3px;
+        width: 12rem;
+        box-shadow: 0 0 5pt 2pt #D3D3D3;
+        border-radius: 5px;
+}
+    button{
+        margin-top: 5px;
+        padding: 5px;
+        border: 1px solid;
+        border-radius: 5px;
+        width: 12.7rem;
+        color: #fff;
+        font-size: 10px;
+        background-color: #D3D3D3;
+}
+    button:hover{
+        box-shadow: 0 0 2pt 2pt orange ;
+}
+    input:hover{
+        box-shadow: 0 0 2pt 2pt orange ;
+    
+}
 
-
+}

@@ -1,0 +1,41 @@
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 8px;
+}
+.table{
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightgray;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.table table {
+    width: 80%;
+    background-color: white;
+    border-collapse: collapse;
+    box-shadow: 3px 5px 2px black;
+    margin: 20px auto;
+}
+.table table thead {
+    font-size: large;
+    font-weight: bold;
+}
+.table table tbody tr td h3{
+    font-size: large;
+    font-weight: 400;
+}
+.table table tbody tr td p {
+    font-size: medium;
+    font-weight: 400;
+}
+.table table tbody tr td .team-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.table table tbody tr td .team-image img {
+    width: 100%;
+    border-radius: 50%;
+}
