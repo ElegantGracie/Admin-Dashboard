@@ -89,7 +89,7 @@ function HomePage() {
         <div className='visits'>
           <BarCharts />
         </div>
-      </div>
+      </div>   
     </div>
   )
 }
